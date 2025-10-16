@@ -53,7 +53,7 @@ const RideCard = ({ ride, showDriverInfo = false, onBook, onEdit, onDelete, isBo
           </div>
           <div className="text-right">
             <div className="text-2xl font-bold text-primary">
-              ${ride.costPerPerson}
+              ₹{ride.costPerPerson}
             </div>
             <div className="text-xs text-muted-foreground">per person</div>
           </div>

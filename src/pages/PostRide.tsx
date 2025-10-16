@@ -165,7 +165,7 @@ const PostRide = () => {
                   />
                 </div>
                 <div className="space-y-2">
-                  <Label htmlFor="cost">Cost per Person ($)</Label>
+                  <Label htmlFor="cost">Cost per Person (₹)</Label>
                   <Input
                     id="cost"
                     name="cost"
