@@ -26,6 +26,7 @@ const App = () => (
           <Route path="/post-ride" element={<PostRide />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
+          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
         </Routes>
       </BrowserRouter>
     </TooltipProvider>
